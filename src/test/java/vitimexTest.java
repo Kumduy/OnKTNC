@@ -19,7 +19,7 @@ public class vitimexTest {
     public void dangKy() throws InterruptedException {
        chromeDriver.get("https://vitimex.com.vn/dang-ky.html");
        chromeDriver.findElement(By.xpath("//input[@id='name']")).sendKeys("TH01926");
-       chromeDriver.findElement(By.xpath("//input[@id='phone']")).sendKeys("0866028125");
+       chromeDriver.findElement(By.xpath("//input[@id='phone']")).sendKeys("086602812");
        chromeDriver.findElement(By.xpath("//input[@id='pass-regis']")).sendKeys("TH01926");
        chromeDriver.findElement(By.xpath("//input[@id='pass-confirm']")).sendKeys("TH01926");
        chromeDriver.findElement(By.xpath("//a[@id='register-btn']")).click();
@@ -32,7 +32,7 @@ public class vitimexTest {
         chromeDriver.get("https://vitimex.com.vn/");
         chromeDriver.findElement(By.xpath("//div[@class='li_log']//a[@data-bs-toggle='modal']//*[name()='svg']")).click();
         Thread.sleep(5000);
-        chromeDriver.findElement(By.xpath("//input[@id='account']")).sendKeys("0866028125");
+        chromeDriver.findElement(By.xpath("//input[@id='account']")).sendKeys("0866028126");
         chromeDriver.findElement(By.xpath("//input[@id='pass']")).sendKeys("TH01926");
         chromeDriver.findElement(By.xpath("//a[@id='signin-btn']")).click();
         Thread.sleep(3000);
