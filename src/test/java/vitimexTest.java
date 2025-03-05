@@ -21,7 +21,7 @@ public class vitimexTest {
 //        options.addArguments("--headless");
         options.addArguments("--disable-gpu");
         options.addArguments("--no-sandbox");
-
+        options.addArguments("--user-data-dir=/tmp/chrome-user-data");
         driver = new ChromeDriver(options);
     }
 
